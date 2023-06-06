@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="/tailwind.config.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="">
+        <div class="relative w-full h-screen bg-hero-pattern group">
+            <div
+                class="absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 bg-white w-[800px] px-5 py-5 rounded-2xl">
+                <div class="flex justify-center gap-10">
+
+                    <div>
+                        <img class="w-[500px] rounded-xl" src="/dist/assets/img-prime.jpg" alt="">
+                    </div>
+                    <form class="group" action="#">
+                        <div class="flex flex-col w-[360px]">
+                            <h5 class="font-bold text-2xl mb-5">Register</h5>
+                            <span class="font-poppins mb-10">Create your account now</span>
+
+                            <div class="relative z-0 w-full mb-6 group">
+                                <input type="text" name="name_input" id="name_input"
+                                    class="block py-2.5 px-3 w-full rounded-xl text-sm text-gray-900 bg-transparent border-2 border-gray-300 appearance-none focus:outline-none focus:ring-1 focus:border-blue-600 peer"
+                                    placeholder=" " required />
+                                <label for="name_input"
+                                    class="absolute text-sm bg-white px-2 text-gray-500 duration-300 transform -translate-y-5 scale-75 top-3 left-4 z-10 origin-[0] peer-focus:scale-75 peer-placeholder-shown:scale-110 peer-focus:left-4 peer-focus:text-blue-600 peer-placeholder-shown:translate-y-0  peer-focus:-translate-y-5">Full Name</label>
+                            </div>
+
+                            <div class="relative z-0 w-full mb-6 group">
+                                <input type="email" name="email_input" id="email_input"
+                                    class="block py-2.5 px-3 w-full rounded-xl text-sm text-gray-900 bg-transparent border-2 border-gray-300 appearance-none focus:outline-none focus:ring-1 focus:border-blue-600 peer"
+                                    placeholder=" " required />
+                                <label for="email_input"
+                                    class="absolute text-sm bg-white px-2 text-gray-500 duration-300 transform -translate-y-5 scale-75 top-3 left-4 z-10 origin-[0] peer-focus:scale-75 peer-placeholder-shown:scale-110 peer-focus:left-4 peer-focus:text-blue-600 peer-placeholder-shown:translate-y-0  peer-focus:-translate-y-5">Your Email</label>
+                            </div>
+
+                            <div class="relative z-0 w-full mb-6 group">
+                                <input type="password" name="password_input" id="password_input"
+                                    class="block py-2.5 px-3 w-full rounded-xl text-sm text-gray-900 bg-transparent border-2 border-gray-300 appearance-none focus:outline-none focus:ring-1 focus:border-blue-600 peer"
+                                    placeholder=" " required />
+                                <label for="password_input"
+                                    class="absolute text-sm bg-white px-2 text-gray-500 duration-300 transform -translate-y-5 scale-75 top-3 left-4 z-10 origin-[0] peer-focus:scale-75 peer-placeholder-shown:scale-110 peer-focus:left-4 peer-focus:text-blue-600 peer-placeholder-shown:translate-y-0  peer-focus:-translate-y-5">Password</label>
+                                    
+                            </div>
+
+                            
+                            <button
+                                class="text-center bg-blue-500 py-2 rounded-lg mb-10 text-white font-semibold hover:bg-blue-900 duration-300 ">Sign
+                                Up</button>
+
+                            <span>Have an Account ? <a href="" class="text-blue-500 font-semibold">Login</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
